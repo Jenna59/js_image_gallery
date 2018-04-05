@@ -1,0 +1,47 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+	font-family: 'Emilys Candy', cursive;
+	font-size: 2em;
+	color: #fff;
+	background: #444;
+}
+
+h1 {
+	text-align: center;
+	font-size: 3em;
+}
+
+ul {
+	display: flex;
+	padding: 0;
+}
+
+ul li {
+	list-style: none;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+figure img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+	box-shadow: 10px 10px 18px #111;
+}
+
+figcaption {
+	text-transform: lowercase;
+}
+
+
+
+
+
+    
+

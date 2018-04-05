@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Image Gallery | COMP1073 Client-Side JavaScript</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- truth test for mobile devices -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/gallery.css">
+	<link href="https://fonts.googleapis.com/css?family=Emilys+Candy" rel="stylesheet">
+</head>
+<body>
+	<h1>Die Galarie <br>von Dietmar Rabich</h1>
+	<section id="gallery">
+		<figure>
+			<!-- added class to the main image in the figure so that it could interact with JavaScript -->
+			<img class="main_img" src="images/flowers-pink-large.jpg" alt="" width="1200" height="800" />
+			<figcaption></figcaption>
+		</figure>
+		<ul><!-- query select all li img -->
+			<li><img src="images/flowers-pink-small.jpg" alt="Pink Flowers" width="240" height="160" /></li>
+			<li><img src="images/flowers-purple-small.jpg" alt="Purple Flowers" width="240" height="160" /></li>
+			<li><img src="images/flowers-red-small.jpg" alt="Red Flowers" width="240" height="160" /></li>
+			<li><img src="images/flowers-white-small.jpg" alt="White Flowers" width="240" height="160" /></li>
+			<li><img src="images/flowers-yellow-small.jpg" alt="Yellow Flowers" width="240" height="160"/></li>
+		</ul>
+	</section>
+	<script src="js/gallery.js"></script>
+	<!-- PHOTO CREDITS
+	Sunflowers in the hamlet Dernekamp, Kirchspiel, Dülmen, North Rhine-Westphalia, Germany
+	By Dietmar Rabich - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=61514522
+
+	Poppies in cornfield, Dülmen, North Rhine-Westphalia, Germany
+	By Dietmar Rabich - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=40957238
+
+	Daffodils in Sentmaring park, Münster, North Rhine-Westfalia, Germany
+	By Dietmar Rabich - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=48211466
+
+	Sentmaring Park, Münster, North Rhine-Westphalia, Germany
+	By Dietmar Rabich - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=48576226
+
+	Market in Münster, North Rhine-Westphalia, Germany
+	By Dietmar Rabich - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=62071586
+	-->
+</body>
+</html>
