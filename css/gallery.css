@@ -9,35 +9,52 @@ html {
 	background: #444;
 }
 
+body {
+  display: block;
+  justify-content: center;
+}
+
 h1 {
 	text-align: center;
 	font-size: 3em;
 }
 
 ul {
-	display: flex;
 	padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; 
 }
 
 ul li {
 	list-style: none;
-    margin-left: auto;
-    margin-right: auto; 
+  width: 240px;
+  height: 160px;
+  margin-top: 12px;
+  margin-right: 6px;
+}
+
+#gallery {
+  text-align: center;
+}
+
+figure {
+  display: inline-block;
 }
 
 figure img {
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+figcaption {
+  text-transform: lowercase;
 }
 
 img {
 	box-shadow: 10px 10px 18px #111;
 }
 
-figcaption {
-	text-transform: lowercase;
-}
 
 
 
